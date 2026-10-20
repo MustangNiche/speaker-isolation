@@ -1,0 +1,4 @@
+interface:
+  display_name: "指定说话人提取"
+  short_description: "先提供目标人物的一句原话，再从多人录音中分离主播并清理残留底噪"
+  default_prompt: "请用 $speaker-isolation 提取这段音频中指定人物的原声；开始前先让我打出需要保留的人说过的一句话。"
